@@ -1,0 +1,27 @@
+export SERAFIMA_VARIABLE=310524-ptm
+date > /opt/310524-ptm/S
+
+ 
+date > /opt/310524-ptm/Serafima/.process_management
+echo "Welcome to Amazon server" >> /opt/310524-ptm/Serafima/.process_management
+cat /opt/310524-ptm/Serafima/.process_management
+Wed Jul  3 17:28:11 UTC 2024
+Welcome to Amazon server
+
+ free -h | grep Mem | awk '{print $2}' >> /opt/310524-ptm/Serafima/.process_management
+ free -h | grep Mem | awk '{print $2}'
+
+ 
+
+ ps -U root -u root u | wc -l >> /opt/310524-ptm/Serafima/.process_management
+ printenv
+ printenv | grep SERAFIMA_VARIABLE
+SERAFIMA_VARIABLE=310524-ptm
+printenv | grep SERAFIMA_VARIABLE >> /opt/310524-ptm/Serafima/.process_management
+
+ ps -ef | grep "/usr/sbin/ss"
+
+ ps -ef | grep "/usr/sbin/sshd -D"
+
+ ps -ef | grep "/usr/sbin/sshd -D" | grep -v grep >> /opt/310524-ptm/Serafima/.process_management
+ cat /opt/310524-ptm/Serafima/.process_management

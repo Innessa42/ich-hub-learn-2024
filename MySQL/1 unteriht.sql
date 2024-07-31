@@ -1,0 +1,15 @@
+use hr;
+select * from employees  where job_id = "it_prog" ;
+select * from employees where salary > 10000;
+select * from employees  where salary between 10000 and 20000;
+select * from employees  where departament_id not in (30,60,100);
+select * from employees  where first_name like "%11%";
+select * from employees  where last_name like "%a";
+select * from employees  where departments_id = 90 ;
+select * from employees  where lasst_name like "L%";
+select * from departments  where countries region_id;
+select city * from locations where country_id = "US";
+select salary * from employess where first_name = "lex" and last_name ="De Haan";
+select * from departments ;
+select department_name from departments were location_id is null;
+select last_name, last_name from hr.employees where manager_id is null;

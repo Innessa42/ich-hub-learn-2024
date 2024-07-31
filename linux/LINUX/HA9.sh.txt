@@ -1,0 +1,10 @@
+#!/bin/bach
+echo "Hello $USER"
+pwd
+echo "Current date : $(date)"
+echo "This script was launched from :$(pwd)"
+echo "Count processes by bioset $(ps -ef |grep bioset | grep -v grep |wc -1)"
+echo "File /etc/passwd rigst: $(ls -alh /etc/passwd |awk '{print $1}' )"
+
+
+
